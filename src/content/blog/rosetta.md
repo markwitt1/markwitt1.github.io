@@ -1,6 +1,6 @@
 ---
-title: How to a dediated Rosetta Terminal Profile inside Visual Studio Code on an M1 Mac
-description: Programming and deploying a server that automatically clicks email verification links
+title: How to add a dedicated Rosetta Terminal Profile inside Visual Studio Code on an M1 Mac
+description: Configuring the VSCode terminal to run as Rosetta on an ARM-based Mac
 pubDate: "Nov 29 2021"
 tags: ["vscode", "m1", "rosetta", "terminal"]
 ---
