@@ -5,7 +5,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold flex justify-between items-center">
+      Profile
+      <a class="btn btn-success" href="/Mark_Witt_CV.pdf" target="_blank">
+        PDF Version
+      </a>
+    </div>
   </div>
 
   <div class="mb-10 text-justify">
@@ -159,5 +164,6 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Electron</li>
     <li>C# .NET</li>
     <li>Python</li>
+    <li>Java</li>
   </ul>
 </BaseLayout>

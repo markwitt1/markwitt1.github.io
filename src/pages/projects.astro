@@ -20,32 +20,91 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     title="Spotify Languages"
     img="/spotify_languages_logo.webp"
     desc="A SaaS tool that allows you to group all of your Spotify library into playlists by language with one click. Built using Laravel."
+    badge="WORK IN PROGRESS"
     url="#"
+  />
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Neural Network Playground"
+    img="/logicola_logo.webp"
+    desc="A web version of the original software built by the late Professor Harry Gensler, built using Next.js / Tailwind"
+    url="https://moonwith.com/logicola"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Other Projects</div>
+    <div class="text-3xl
+    w-full
+    font-bold
+    mb-5
+    mt-10">
+      Other Projects
+    </div>
   </div>
 
+  <p>
+    During my studies at
+    <a href="https://code.berlin" target="_blank" class="underline"
+      >CODE University Of Applied Sciences</a
+    >, I have started multiple team projects per semester. Due to the fast pace
+    of the projects, I have not been able to maintain them. However, I have
+    learned a lot from them and I am proud of the work I have done.<br />
+    Here are some examples of the stuff I worked on:
+  </p>
+
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    title="SwiftUI Data Display via WebSocket"
+    img="/code_logo.webp"
+    desc="A SwiftUI iPad app that integrates with a React Native mobile app to transfer real-time information. Uses AWS API Gateway for Serverless Websockets."
     url="#"
-    badge="FOSS"
   />
-  <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="AnySing (AI-based Karaoke App)"
+    img="/code_logo.webp"
+    desc="A Flutter Desktop Application with FastAPI. Allows to create Karaoke versions out of any song on YouTube. It uses the Demucs model to separate vocals from music and Whisper to detect and display the lyrics in real-time."
+    url="https://github.com/anysing-karaoke/anysing"
   />
-  <div class="divider my-0"></div>
+
   <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="ChildRight"
+    img="/code_logo.webp"
+    desc="A platform built using T3 Stack that allows children and young adults in Germany to calculcate their claim to maintenance payments from their parents. It uses the Düsseldorfer Tabelle to calculate the amount. I built an animated interactive robot using Rive and a multi-step persistent form as well as a chat and a forum that supports unlimited nesting of comments."
+    url="https://github.com/childright/childright/"
+  />
+
+  <HorizontalCard
+    title="NeoFacturing.ai"
+    img="/neofacturing_logo.webp"
+    desc="A startup at the intersection of AI and manufacturing. We explored opportunities in process automation for plastic injection molding. I built an ASP.NET Service running on a virtualized Windows Desktop that controls the SolidWorks CAD Software. We connected this to a Langchain Agent served via FastAPI to a React frontend, with the vision to build a SolidWorks copilot system."
+    url="https://github.com/NeoFacturing"
+  />
+
+  <HorizontalCard
+    title="Oneline"
+    img="/code_logo.webp"
+    desc="A small raycast extension to conveniently remove line breaks from text."
+    url="https://github.com/markwitt1/oneline"
+  />
+
+  <HorizontalCard
+    title="EZUP"
+    img="/code_logo.webp"
+    desc="A very simple file sharing system I built 5 years ago using Express/Node.js. It allows you to upload files and share them with a link or short code."
+    url="https://github.com/markwitt1/ezup"
+  />
+
+  <HorizontalCard
+    title="binance-pump-dump"
+    img="/code_logo.webp"
+    desc="A script to buy a certain cryptocurrency as fast as possible to capitalize off of Pump-and-Dump's. Built using Node.js"
+    url="https://github.com/markwitt1/binance-pump-dump"
+  />
+
+  <HorizontalCard
+    title="YT2MP3"
+    img="/code_logo.webp"
+    desc="A Windows Youtube to MP3 downloader I built 5 years ago using C#. It supports downloading and splitting full album videos into individual tracks."
+    url="https://github.com/markwitt1/YT2MP3"
   />
 </BaseLayout>
